@@ -1,0 +1,475 @@
+ *{
+    margin: 0;
+    list-style: none;
+
+}
+
+header{
+    height: 47px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+    
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 1%;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.nav-index {
+    background-color: rgb(18, 21, 15);
+    
+}
+
+.nav-biografia{
+    background-color: black;
+}
+
+.nav-tour{
+    background-color: rgb(49, 54, 49);
+}
+
+.nav-discografia{
+    background-color: rgb(30, 30, 30);
+}
+
+.nav-contacto{
+    background-color: rgb(38, 40, 38);
+}
+
+.fondo img{
+    width: 1349px;
+    margin-top: 47px;
+}
+
+.fondo-discografia{
+    margin-top: 47px;
+}
+
+.blanco h5{
+    font-size: px;
+    color: white;
+}
+.blanco{
+    background-color: white;
+}
+
+.parrafo-1{
+    display: inline-block;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 17px 5px;
+}
+
+.parrafo-2{
+    display: inline-block;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 5px 5px 30px;
+}
+
+.pagina-tour{
+    background-image: url(../assets/img/melanie-fondo-tour.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pagina-contacto{
+    background-image: url(../assets/img/fondo-contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor-de-forms{
+    color: white;
+    width: 1000px;
+    height: 500px 0px;
+    margin: 0 auto;
+}
+
+.contenedor-de-forms form .nombre{
+    margin: 40px 0px 0px 375px;
+}
+
+.nombre input{
+    padding: 1px 10px 1px 0px;
+    margin: 0px 0px 0px 10px;
+}
+
+.contenedor-de-forms form .apellido{
+    margin: 40px 0px 0px 375px;
+}
+
+.apellido input{
+    padding: 1px 10px 1px 0px;
+    margin: 0px 0px 0px 8px;
+}
+
+.contenedor-de-forms form .correo{
+    margin: 40px 0px 0px 375px;
+}
+
+.correo input{
+    padding: 1px 10px 1px 0px;
+    margin: 0px 0px 0px 19px;
+}
+
+.contenedor-de-forms form .usuario{
+    margin: 40px 0px 0px 375px;
+}
+
+.usuario input{
+    padding: 1px 10px 1px 0px;
+    margin: 0px 0px 0px 14px;
+}
+
+.contenedor-de-forms form .contraseña{
+    margin: 40px 0px 0px 375px;
+}
+
+.registrate{
+    padding: 77px 0px 0px 615px;
+    color: white;
+    font-size: 28px;
+}
+
+.registrado{
+    color: white;
+    padding: 70px 0px 0px 610px;
+}
+
+.inicia-sesion{
+    color: grey;
+    padding: 0px 0px 0px 650px;
+}
+
+.footer-contacto{
+    padding: 90px 0px 0px 626px;
+}
+
+.footer-contacto ul li a{
+    color: white;
+}
+
+.redes div ul li img{
+    width: 45px;
+    height: 45px;
+}
+
+.ig{
+    position: absolute;
+    top: 585px;
+    right: 15px;
+}
+
+.tw{
+    position: absolute;
+    top: 640px;
+    right: 15px;
+}
+
+.yt{
+    position: absolute;
+    top: 695px;
+    right: 15px;
+}
+
+.fb{
+    position: absolute;
+    top: 750px;
+    right: 15px;
+}
+
+section{
+    color: white;
+    font-size: 14px;
+}
+
+
+
+.pity-party{
+    position: absolute;
+    top: 95px;
+    left: 45px;
+}
+
+.highschool{
+    position: absolute;
+    top: 460px;
+    left: 45px;
+}
+
+.nurces-office{
+    position: absolute;
+    top: 95px;
+    right: 50px;
+}
+
+.teachers-pet{
+    position: absolute;
+    top: 460px;
+    right: 50px;
+}
+
+.cancion1{
+    font-size: 16px;
+    position:  absolute;
+    top: 75px;
+    left: 276px;
+}
+
+.cancion3{
+    font-size: 16px;
+    position:  absolute;
+    top: 440px;
+    left: 230px;
+}
+
+.cancion2{
+    font-size: 16px;
+    position:  absolute;
+    top: 75px;
+    right: 260px;
+}
+
+.cancion4{
+    font-size: 16px;
+    position:  absolute;
+    top: 440px;
+    right: 260px;
+}
+
+.footer-discografia{
+    position: absolute;
+    top: 773px;
+    left: 610px;
+}
+
+.footer-discografia ul li a{
+    color: white;
+}
+
+
+
+
+
+.sitio-biografia{
+    background-color: rgb(30 30 30);
+}
+
+.melanie-2015{
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+
+.melanie-2019{
+    width: 640px;
+    position: absolute;
+    right: 21px;
+    top: 895px;
+
+}
+
+.titulo-biografia{
+    font-size: 24px;
+    padding: 85px 0px 0px 925px;
+}
+
+.biografia{
+    text-align: left;
+    font-size: 17px;
+    padding: 10px 0px 0px 670px;
+}
+
+.vida-temprana{
+    font-size: 24px;
+    padding: 50px 0px 0px 896px;
+}
+
+.familia{
+    font-size: 17px;
+    padding: 10px 0px 0px 670px;
+}
+
+.familia-2{
+    font-size: 17px;
+}
+
+.inicios{
+    font-size: 24px;
+    padding: 50px 0px 0px 858px;
+}
+
+.año-catorce{
+    font-size: 22px;
+    padding: 0px 0px 0px 958px;
+}
+
+.thevoice{
+    font-size: 17px;
+    text-align: left;
+    padding: 0px 0px 0px 670px;
+}
+
+.thevoice-2{
+    font-size: 17px;
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+}
+
+.año-quince{
+    font-size: 22px;
+    padding: 50px 0px 0px 635px;
+}
+
+.debut{
+    font-size: 17px;
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+}
+
+.debut-2{
+    font-size: 17px;
+    text-align: left;
+    padding: 0px 660px 0px 20px;
+}
+
+.año-dieciséis{
+    font-size: 22px;
+    padding: 50px 0px 0px 270px;
+}
+
+.finales{
+    font-size: 17px;
+    padding: 0px 665px 0px 20px;
+}
+
+.año-veinte{
+    font-size: 22px;
+    padding: 50px 0px 0px 310px;
+}
+
+.billboard{
+    font-size: 17px;
+    padding: 0px 665px 0px 20px;
+}
+
+.billboard2{
+    font-size: 17px;
+    padding: 0px 5px 0px 20px;
+}
+
+.año-veintitres{
+    font-size: 22px;
+    padding: 50px 0px 0px 650px;
+}
+
+.albumportals{
+    font-size: 17px;
+    padding: 0px 5px 0px 20px;
+}
+
+.footer-biografia ul li{
+    color: white;
+    padding: 20px 0px 15px 620px;
+}
+
+.footer-biografia ul li a{
+    color: white;
+}
+
+.linktour{
+    color: white;
+}
+
+.mayo{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+
+.junio1{
+    position: absolute;
+    top: 220px;
+    left: 50px;
+}
+
+.junio2{
+    position: absolute;
+    top: 320px;
+    left: 50px;
+}
+
+.junio3{
+    position: absolute;
+    top: 420px;
+    left: 50px;
+}
+
+.primertour{
+    position: absolute;
+    top: 120px;
+    left: 140px;
+}
+
+.segundotour{
+    position: absolute;
+    top: 220px;
+    left: 140px;
+}
+
+.tercertour{
+    position: absolute;
+    top: 320px;
+    left: 140px;
+}
+
+.cuartotour{
+    position: absolute;
+    top: 420px;
+    left: 140px;
+}
+
+.link1{
+    position: absolute;
+    top: 120px;
+    right: 150px;
+}
+
+.link2{
+    position: absolute;
+    top: 220px;
+    right: 150px;
+}
+
+.link3{
+    position: absolute;
+    top: 320px;
+    right: 150px;
+}
+
+.link4{
+    position: absolute;
+    top: 420px;
+    right: 150px;
+}
+
+.footertour ul li{
+    position: absolute;
+    bottom: 10px;
+    left: 660px;
+}
+
+.footertour ul li a{
+    color: white;
+}
