@@ -510,183 +510,148 @@ section{
 }
 
 
-@media (max-width: 380px){
+@media (max-width: 400px){
     .melanie-2015{
-        width: 650px;
+        width: 1100px;
         position: absolute;
-        left: 45px;
+        top: 90px;
+        left: 55px;
     }
-}
 
-@media (max-width: 380px){
     .titulo-biografia{
-        font-size: 35px;
-        padding: 760px 0px 0px 275px;
+        font-size: 60px;
+        padding: 1220px 0px 0px 430px;
     }
-}
 
-@media (max-width: 380px){
     .biografia{
-        font-size: 24px;
+        font-size: 44px;
         padding: 10px 0px 0px 10px;
-        width: 710px;
+        width: 1180px;
         text-align: center;
     }
-}
 
-@media (max-width: 380px){
     .vida-temprana{
-        font-size: 35px;
-        padding: 70px 0px 0px 230px;
-        width: 300px;
+        font-size: 60px;
+        padding: 70px 0px 0px 350px;
+        width: 600px;
     }
-}
 
-@media (max-width: 380px){
     .familia{
-        font-size: 24px;
+        font-size: 44px;
         padding: 10px 0px 0px 10px;
-        width: 710px;
+        width: 1180px;
         text-align: center;
     }
-}
 
-@media (max-width: 380px){
     .melanie-2019{
-        width: 640px;
+        width: 1100px;
         position: absolute;
-        left: 45px;
-        top: 1600px;
-    
-    }    
-}
+        left: 55px;
+        top: 2800px;
+    }  
 
-@media (max-width: 380px){
     .inicios{
-        font-size: 35px;
-        padding: 700px 0px 0px 155px;
-        width: 500px;
+        font-size: 60px;
+        padding: 1180px 0px 0px 235px;
+        width: 800px;
     }
-}
 
-@media (max-width: 380px){
     .año-catorce{
-        font-size: 32px;
-        padding: 0px 0px 0px 315px;
+        font-size: 50px;
+        padding: 0px 0px 0px 505px;
         width: 200px;
     }
-}
 
-@media (max-width: 380px){
     .thevoice{
-        font-size: 24px;
+        font-size: 44px;
         text-align: center;
         padding: 10px 0px 0px 10px;
-        width: 700px;
+        width: 1190px;
     }
-}
 
-@media (max-width: 380px){
     .thevoice-2{
-        font-size: 24px;
+        font-size: 44px;
         text-align: center;
         padding: 0px 0px 0px 15px;
-        width: 690px;
+        width: 1170px;
     }
-    
-}
 
-@media (max-width: 380px){
     .año-quince{
-        font-size: 32px;
-        padding: 50px 0px 0px 300px;
+        font-size: 50px;
+        padding: 50px 0px 0px 505px;
         width: 200px;
     }
-}
 
-@media (max-width: 380px){
     .debut{
-        font-size: 24px;
+        font-size: 44px;
         text-align: center;
         padding: 10px 0px 0px 15px;
-        width: 700px;
+        width: 1170px;
     }
-}
 
-@media (max-width: 380px){
     .debut-2{
-        font-size: 24px;
+        font-size: 44px;
         text-align: center;
         padding: 0px 660px 0px 15px;
-        width: 696px;
+        width: 1170px;
     }
-}
 
-@media (max-width: 380px){
     .año-dieciséis{
-        font-size: 32px;
-        padding: 50px 0px 0px 290px;
-        width: 200px;
+        font-size: 50px;
+        padding: 50px 0px 0px 480px;
+        width: 300px;
     }
-}
 
-@media (max-width: 380px){
     .finales{
-        font-size: 24px;
+        font-size: 44px;
         padding: 10px 665px 0px 15px;
         text-align: center;
-        width: 700px;
+        width: 1170px;
     }
-    
-}
 
-@media (max-width: 380px){
     .año-veinte{
-        font-size: 32px;
-        padding: 50px 0px 0px 328px;
+        font-size: 50px;
+        padding: 50px 0px 0px 535px;
     }
-    
-}
 
-@media (max-width: 380px){
     .billboard{
-        font-size: 24px;
+        font-size: 44px;
         padding: 10px 665px 0px 15px;
-        width: 720px;
+        width: 1190px;
         text-align: center;
     }
-    
-}
 
-@media (max-width: 380px){
     .billboard2{
-        font-size: 24px;
+        font-size: 44px;
         padding: 0px 5px 0px 15px;
         text-align: center;
-        width: 700px;
+        width: 1190px;
     }
-}
 
-@media (max-width: 380px){
     .año-veintitres{
-        font-size: 32px;
-        padding: 50px 0px 0px 328px;
+        font-size: 50px;
+        padding: 50px 0px 0px 540px;
     }
-}
 
-@media (max-width: 380px){
     .albumportals{
-        font-size: 24px;
+        font-size: 44px;
         padding: 10px 5px 0px 15px;
         text-align: center;
-        width: 690px;
+        width: 1190px;
+    }
+
+    .footer-biografia ul li{
+        font-size: 43px;
+        color: white;
+        padding: 30px 0px 15px 500px;
+    }
+
+    header nav ul li a{
+      font-size: 32px;
+    }
+
+    header{
+        height: 70px;
     }
 }
 
-@media (max-width: 380px){
-    .footer-biografia ul li{
-        font-size: 21px;
-        color: white;
-        padding: 30px 0px 15px 305px;
-    }
-}
