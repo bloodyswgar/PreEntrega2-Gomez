@@ -23,6 +23,7 @@ header nav ul li a{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
+    
 }
 
 .nav-index {
@@ -479,29 +480,21 @@ section{
     .melanie-2015{
         width: 500px;
     }
-}
 
-@media (max-width: 1024px){
     .titulo-biografia{
         padding: 85px 0px 0px 710px;
     }
-}
 
-@media (max-width: 1024px){
     .biografia{
         font-size: 18px;
         padding: 10px 0px 0px 530px;
     }
-}
 
-@media (max-width: 1024px){
     .vida-temprana{
         font-size: 24px;
         padding: 50px 0px 0px 685px;
     }
-}
 
-@media (max-width: 1024px){
     .familia{
         font-size: 18px;
         padding: 10px 0px 0px 530px;
@@ -653,5 +646,99 @@ section{
     header{
         height: 70px;
     }
+
+
+
+    .pagina-tour{
+        background-image: url(../assets/img/melanie-fondo-tour.jpg);
+        background-repeat: no-repeat;
+        width: px;
+        height: 1200px;
+    }
+
+    .mayo{
+        position: absolute;
+        font-size: 26px;
+        top: 140px;
+        left: 310px;
+    }
+    
+    .primertour{
+        position: absolute;
+        font-size: 22px;
+        top: 160px;
+        left: 400px;
+        width: 500px;
+    }
+
+    .link1{
+        position: absolute;
+        top: 170px;
+        right: 158px;
+    }
+
+    .junio1{
+        font-size: 26px;
+        position: absolute;
+        top: 240px;
+        left: 168px;
+    }
+
+    .segundotour{
+        position: absolute;
+        top: 260px;
+        left: 60px;
+    }
+
+    .link2{
+        position: absolute;
+        top: 290px;
+        right: 158px;
+    }
 }
 
+.junio2{
+    position: absolute;
+    top: 320px;
+    left: 50px;
+}
+
+.junio3{
+    position: absolute;
+    top: 420px;
+    left: 50px;
+}
+
+.tercertour{
+    position: absolute;
+    top: 320px;
+    left: 140px;
+}
+
+.cuartotour{
+    position: absolute;
+    top: 420px;
+    left: 140px;
+}
+
+.link3{
+    position: absolute;
+    top: 320px;
+    right: 150px;
+}
+
+.link4{
+    position: absolute;
+    top: 420px;
+    right: 150px;
+}
+
+.footertour ul li{
+    position: absolute;
+    bottom: 10px;
+    left: 660px;
+}
+
+.footertour ul li a{
+    color: white;
+}
