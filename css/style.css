@@ -5,17 +5,37 @@
 }
 
 header{
+    display: flex;
     height: 47px;
     width: 100%;
-    text-align: center;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     z-index: 100;
-    
+    box-shadow: 5px 0 10px black;
+}
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+    padding-left: 20px;
+}
+
+nav a:hover{
+    color: pink;
+    transition: .3s;
 }
 
 header nav ul li{
     display: inline-block;
-    padding: 1%;
+    padding: 5px;
+    margin-right: 50px;
 }
 
 header nav ul li a{
@@ -169,25 +189,25 @@ header nav ul li a{
 .ig{
     position: absolute;
     top: 585px;
-    right: 15px;
+    right: 10px;
 }
 
 .tw{
     position: absolute;
     top: 640px;
-    right: 15px;
+    right: 10px;
 }
 
 .yt{
     position: absolute;
     top: 695px;
-    right: 15px;
+    right: 10px;
 }
 
 .fb{
     position: absolute;
     top: 750px;
-    right: 15px;
+    right: 10px;
 }
 
 section{
@@ -640,67 +660,79 @@ section{
     }
 
     header nav ul li a{
-      font-size: 32px;
+        font-size: 32px;
     }
-
+  
     header{
         height: 70px;
     }
 
-
-
     .pagina-tour{
         background-image: url(../assets/img/melanie-fondo-tour.jpg);
         background-repeat: no-repeat;
-        width: px;
-        height: 1200px;
+        width: 400px;
+        height: 1800px;
     }
 
     .mayo{
         position: absolute;
-        font-size: 26px;
+        font-size: 30px;
         top: 140px;
-        left: 310px;
+        left: 305px;
     }
     
     .primertour{
         position: absolute;
-        font-size: 22px;
-        top: 160px;
-        left: 400px;
-        width: 500px;
+        font-size: 28px;
+        top: 180px;
+        left: 80px;
+        width: 550px;
     }
 
     .link1{
         position: absolute;
-        top: 170px;
-        right: 158px;
+        font-size: 25px;
+        top: 250px;
+        left: 305px;
     }
 
     .junio1{
-        font-size: 26px;
+        font-size: 30px;
         position: absolute;
-        top: 240px;
-        left: 168px;
+        top: 350px;
+        left: 310px;
     }
 
     .segundotour{
         position: absolute;
-        top: 260px;
-        left: 60px;
+        font-size: 28px;
+        top: 390px;
+        left: 100px;
+        width: 550px;
     }
 
     .link2{
         position: absolute;
-        top: 290px;
-        right: 158px;
+        font-size: 25px;
+        top: 460px;
+        left: 305px;
     }
-}
 
-.junio2{
-    position: absolute;
-    top: 320px;
-    left: 50px;
+    .junio2{
+        position: absolute;
+        font-size: 30px;
+        top: 560px;
+        left: 310px;
+    }
+
+    .tercertour{
+        font-size: 28px;
+        padding-top: 280px;
+        padding-right: 50px;
+        text-align: center;
+        width: 460px;
+    }
+    
 }
 
 .junio3{
