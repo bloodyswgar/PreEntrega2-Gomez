@@ -188,26 +188,26 @@ header nav ul li a{
 
 .ig{
     position: absolute;
-    top: 585px;
-    right: 20px;
+    top: 580px;
+    right: 10px;
 }
 
 .tw{
     position: absolute;
-    top: 640px;
-    right: 20px;
+    top: 635px;
+    right: 10px;
 }
 
 .yt{
     position: absolute;
-    top: 695px;
-    right: 20px;
+    top: 690px;
+    right: 10px;
 }
 
 .fb{
     position: absolute;
-    top: 750px;
-    right: 20px;
+    top: 745px;
+    right: 10px;
 }
 
 section{
@@ -393,18 +393,12 @@ section{
 }
 
 .footer-biografia ul li{
-    color: white;
     padding: 20px 0px 10px 620px;
 }
 
-.footer-biografia ul li a{
+.main-tour div{
+    display: flex;
     color: white;
-}
-
-.footer-biografia ul li a:hover{
-    color: pink;
-    transition: .3s;
-
 }
 
 .linktour{
@@ -412,111 +406,92 @@ section{
 }
 
 .mayo{
-    position: absolute;
-    top: 120px;
-    left: 50px;
-}
-
-.junio1{
-    position: absolute;
-    top: 220px;
-    left: 50px;
-}
-
-.junio2{
-    position: absolute;
-    top: 320px;
-    left: 50px;
-}
-
-.junio3{
-    position: absolute;
-    top: 420px;
-    left: 50px;
+    padding-top: 110px;
+    padding-left: 40px;
 }
 
 .primertour{
-    position: absolute;
-    top: 120px;
-    left: 140px;
-}
-
-.segundotour{
-    position: absolute;
-    top: 220px;
-    left: 140px;
-}
-
-.tercertour{
-    position: absolute;
-    top: 320px;
-    left: 140px;
-}
-
-.cuartotour{
-    position: absolute;
-    top: 420px;
-    left: 140px;
+    padding-top: 110px;
+    padding-left: 80px;
 }
 
 .link1{
-    position: absolute;
-    top: 120px;
-    right: 150px;
+    padding-top: 110px;
+    padding-left: 670px;
+}
+
+.junio1{
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+.segundotour{
+    padding-top: 80px;
+    padding-left: 85px;
 }
 
 .link2{
-    position: absolute;
-    top: 220px;
-    right: 150px;
+    padding-top: 80px;
+    padding-left: 693px;
+}
+
+.junio2{
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+.tercertour{
+    padding-top: 80px;
+    padding-left: 86px;
 }
 
 .link3{
-    position: absolute;
-    top: 320px;
-    right: 150px;
+    padding-top: 80px;
+    padding-left: 730px;
+}
+
+.junio3{
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+.cuartotour{
+    padding-top: 80px;
+    padding-left: 86px;
 }
 
 .link4{
-    position: absolute;
-    top: 420px;
-    right: 150px;
+    padding-top: 80px;
+    padding-left: 496px;
 }
 
-.footertour ul li{
-    position: absolute;
-    bottom: 10px;
-    left: 660px;
+.junio4{
+    padding-top: 80px;
+    padding-left: 40px;
 }
 
-.footertour ul li a{
+.quintotour{
+    padding-top: 80px;
+    padding-left: 86px;
+}
+
+.link5{
+    padding-top: 80px;
+    padding-left: 540px;
+}
+
+.footertour{
+    padding: 150px 0px 0px 618px;
+}
+
+footer ul li a{
     color: white;
 }
 
-@media (max-width: 1024px){
-    .melanie-2015{
-        width: 500px;
-    }
+footer ul li a:hover{
+    color: pink;
+    transition: .3s;
 
-    .titulo-biografia{
-        padding: 85px 0px 0px 710px;
-    }
-
-    .biografia{
-        font-size: 18px;
-        padding: 10px 0px 0px 530px;
-    }
-
-    .vida-temprana{
-        font-size: 24px;
-        padding: 50px 0px 0px 685px;
-    }
-
-    .familia{
-        font-size: 18px;
-        padding: 10px 0px 0px 530px;
-        display: inline-block;
-    }
 }
 
 
@@ -649,117 +624,110 @@ section{
     }
 
     header nav ul li a{
-        font-size: 32px;
+        font-size: 31px;
+        padding-left: 30px;
     }
   
     header{
         height: 70px;
     }
 
-    .pagina-tour{
-        background-image: url(../assets/img/melanie-fondo-tour.jpg);
-        background-repeat: no-repeat;
-        width: 400px;
-        height: 1800px;
+    .main-tour div{
+        display: flex;
+        flex-direction: column;
+        color: white;
     }
 
-    .mayo{
-        position: absolute;
-        font-size: 30px;
-        top: 140px;
-        left: 305px;
+    mayo{
+        font-size: 29px;
+        padding-top: 150px;
+        padding-left: 300px;
     }
     
     .primertour{
-        position: absolute;
-        font-size: 28px;
-        top: 180px;
-        left: 80px;
-        width: 550px;
-    }
-
-    .link1{
-        position: absolute;
         font-size: 25px;
-        top: 250px;
-        left: 305px;
-    }
-
-    .junio1{
-        font-size: 30px;
-        position: absolute;
-        top: 350px;
-        left: 310px;
-    }
-
-    .segundotour{
-        position: absolute;
-        font-size: 28px;
-        top: 390px;
-        left: 100px;
-        width: 550px;
-    }
-
-    .link2{
-        position: absolute;
-        font-size: 25px;
-        top: 460px;
-        left: 305px;
-    }
-
-    .junio2{
-        position: absolute;
-        font-size: 30px;
-        top: 560px;
-        left: 310px;
-    }
-
-    .tercertour{
-        font-size: 28px;
-        padding-top: 280px;
-        padding-right: 50px;
-        text-align: center;
-        width: 460px;
+        padding-top: 110px;
+        padding-left: 80px;
     }
     
-}
+    .link1{
+        padding-top: 110px;
+        padding-left: 670px;
+    }
+    
+    .junio1{
+        font-size: 29px;
+        padding-top: 80px;
+        padding-left: 40px;
+    }
+    
+    .segundotour{
+        font-size: 25px;
+        padding-top: 80px;
+        padding-left: 85px;
+    }
+    
+    .link2{
+        padding-top: 80px;
+        padding-left: 693px;
+    }
+    
+    .junio2{
+        font-size: 29px;
+        padding-top: 80px;
+        padding-left: 40px;
+    }
+    
+    .tercertour{
+        font-size: 25px;
+        padding-top: 80px;
+        padding-left: 86px;
+    }
+    
+    .link3{
+        padding-top: 80px;
+        padding-left: 730px;
+    }
+    
+    .junio3{
+        font-size: 29px;
+        padding-top: 80px;
+        padding-left: 40px;
+    }
+    
+    .cuartotour{
+        font-size: 25px;
+        padding-top: 80px;
+        padding-left: 86px;
+    }
+    
+    .link4{
+        padding-top: 80px;
+        padding-left: 496px;
+    }
+    
+    .junio4{
+        font-size: 29px;
+        padding-top: 80px;
+        padding-left: 40px;
+    }
+    
+    .quintotour{
+        font-size: 25px;
+        padding-top: 80px;
+        padding-left: 86px;
+    }
+    
+    .link5{
+        padding-top: 80px;
+        padding-left: 540px;
+    }
 
-.junio3{
-    position: absolute;
-    top: 420px;
-    left: 50px;
-}
-
-.tercertour{
-    position: absolute;
-    top: 320px;
-    left: 140px;
-}
-
-.cuartotour{
-    position: absolute;
-    top: 420px;
-    left: 140px;
-}
-
-.link3{
-    position: absolute;
-    top: 320px;
-    right: 150px;
-}
-
-.link4{
-    position: absolute;
-    top: 420px;
-    right: 150px;
-}
-
-.footertour ul li{
-    position: absolute;
-    bottom: 10px;
-    left: 660px;
-}
-
-.footertour ul li a{
-    color: white;
+    .footertour{
+        padding-left: 20px;
+    }
+    
+    .linktour{
+        padding-left: 20px;
+    }
 }
